@@ -1,4 +1,4 @@
 import multiplicacion from "./operaciones/multiplicacion.js";
-
-export const module={multiplicacion}//exportar el objeto me facilita la desestructuracion
+const module={multiplicacion}//exportar el objeto me facilita la desestructuracion
+export {multiplicacion}
 export default module
